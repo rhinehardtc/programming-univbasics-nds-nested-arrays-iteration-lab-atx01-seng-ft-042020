@@ -42,9 +42,7 @@ def total_even_pairs(src)
   d = 0
   a = 0
   while d < src.length do 
-    if (a % 2 = 0) 
       new_array.push(a + (a + 1))
-    end
     d += 1
   end
   new_array
