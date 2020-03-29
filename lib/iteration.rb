@@ -21,7 +21,9 @@ end
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
 def find_greater_pair(src)
+  new_array = []
   
+  new_array.push(src[0].max)
  
 end
 
