@@ -23,7 +23,7 @@ end
 def find_greater_pair(src)
   new_array = []
   
-  new_array.push(src[0].max)
+  src.each new_array.push(src[i].max)
  
 end
 
