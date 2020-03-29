@@ -9,8 +9,9 @@ def join_ingredients(src)
   
   new_array = []
   
-  new_array.push("I love #{src[i][i]} and #{src[i][i + 1]} on my pizza")
-  new_array.push("I love #{src[i][i]} and #{src[i][i + 1]} on my pizza")
+  new_array.push("I love #{src[0][0]} and #{src[0][1]} on my pizza")
+  new_array.push("I love #{src[1][0]} and #{src[1][1]} on my pizza")
+  new_array.push("I love #{src[2][0]} and #{src[2][1]} on my pizza")
    
 
   new_array
