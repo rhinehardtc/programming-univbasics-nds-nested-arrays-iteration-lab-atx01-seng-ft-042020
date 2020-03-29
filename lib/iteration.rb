@@ -9,8 +9,9 @@ def join_ingredients(src)
   
   new_array = []
   
-  src.each_with_index { |src, idx| new_array.push("We have a #{animal} with index #{idx}") }
-  
+  new_array.push("I love #{src[0][0]} and #{src[0][1]} on my pizza")
+  new_array.push("I love #{src[1][0]} and #{src[1][1]} on my pizza")
+  new_array.push("I love #{src[2][0]} and #{src[2][1]} on my pizza")
    
 
   new_array
