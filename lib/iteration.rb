@@ -8,8 +8,8 @@
 def join_ingredients(src)
   
   new_array = []
-  i = 0
-  src.length.times do (new_array.push("I love #{src[0][0]} and #{src[0][1]} on my pizza"))
+  
+  src.each_with_index { |src, idx| new_array.push("We have a #{animal} with index #{idx}") }
   
    
 
